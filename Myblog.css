@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    overflow-x:  hidden;
+    /* display: table; */
+}
+.redcl{
+color: red;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 47px;
+    position: sticky;
+    top: 0;
+    background: transparent;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 19px;
+}
+.navlogo img{
+    height: 79px;
+    margin: 2px 30px;
+    
+}
+.navlogo img:hover{
+    cursor: pointer;
+
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    align-items: center;
+}
+.navlist{
+    padding: 12px;
+    
+}
+nav a{
+    color: rgb(248, 245, 245);
+}
+nav ul li:hover{
+    background-color:rgb(1 6 37);
+
+}
+#active{
+    background-color:rgb(1 6 37);
+
+}
+.container{
+    background-image: url(imagestext/background/background7.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(184, 224, 255);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+.footer{
+    display: flex;
+    align-content: center;
+    background-color: black;
+    justify-content: space-evenly;
+    color: white;
+    padding: 30px 0px;
+   
+}
+.flipbox ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.flipbox{
+    background-color: rgb(6 7 35);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    background-image: url(imagestext/background/background5.jpg);
+
+}
+.box{
+    color: white;
+    background-color: rgb(1 6 37);
+    height: 362px;
+    width: 22%;
+    margin-top: -63px;
+    margin-bottom: 85px;
+    border-radius: 15px;
+    box-shadow: black 10px 10px 17px;
+    border: 2px solid #d62828;
+    /* transition: transform .7s; */
+}
+/* .box:hover{
+    cursor: pointer;
+    box-shadow: #020000eb 14px 14px 33px;
+    transform: scale(1.2);
+    background-color: rgb(6 9 50 / 85%);
+    margin-bottom: auto; 
+         } */
+.writing{
+    margin-top: 275px;
+    font-size: 55px;
+    height: 100%;
+    font-weight: 1;
+    width: 46%;
+    margin-left: 70px;
+    color: #e2ecec;
+    background-color: rgb(1 6 37);
+    margin-bottom: 10px;
+}
+.shape{
+    margin-right: 60px;
+    margin-top: 0px;
+    padding-bottom: 95px;
+}
+.shape1{
+    display: flex;
+    height: 215px;
+    justify-content: flex-end;
+}
+.shape2{
+    display: flex;
+    height: 215px;
+    justify-content: flex-end;
+}
+.shape3{
+    display: flex;
+    height: 215px;
+    justify-content: flex-end;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+
+.boxshape{
+    height: 178px;
+    width: 192px;
+    background-color: #010625;
+    margin: 0px 17px;
+    padding: 2px 10px;
+    border-radius: 20px;
+    box-shadow: 15px 17px 20px black;
+    transition: transform .7s;
+    border: 2px solid #d62828;
+    
+    
+}
+
+.boxshape:hover{
+    transform: scale(1.2);
+
+}
+.box h1{
+    display: block;
+    text-align: center;
+    padding: 11px 0px;
+    border-radius: 11px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 52px;
+}
+.box p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Roboto Slab', serif;
+}
+.boximg{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#htmllogo{
+    height: 188px;
+    width: 200px;
+    margin: 18px 109px;
+}
+#csslogo{
+    height: 146px;
+    width: 139px;
+    margin: 37px 141px;
+}
+#jslogo{
+    height: 146px;
+    width: 139px;
+    margin: 37px 141px;
+}
+
+
+/* Contact Page */
+#blog{
+    background-color: rgb(4, 48, 78);
+    background-image: url(imagestext/background/background8.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-dodge;
+}
+.blogspot{
+    height: 509px;
+    width: 95%;
+    background-color: red;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: url(imagestext/background/blogbgimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #d62828;
+    box-shadow: 0px 0px 21px black;
+
+}
+.blogimage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 7px 0px;
+}
+.blogbox{
+    height: 234px;
+    width: 20%;
+    border-radius: 11px;
+    margin: 0px 20px;
+    border: 2px solid #d62828;
+    transition: transform .7s;
+}
+.blogbox:hover{
+    
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px black;
+}
+.blogbox img{
+    height: 234px;
+    width: 100%;
+    border-radius: 11px;
+    object-fit: cover;
+    transition: transform .7s;
+}
+.projectname{
+    border: 2px solid #d62828;
+    background-color: #29091b;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    width: 17%;
+    align-items: center;
+    height: 47px;
+    font-size: 23px;
+    color: white;
+    font-family: 'Roboto Slab';
+    margin-bottom: 20px;
+    cursor:not-allowed;
+}
+.watchmore{
+    border: 2px solid #3b666f;
+    background-color: #efefe38f;
+    display: flex;
+    margin: auto;
+    width: 10%;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Roboto Slab';
+    cursor: pointer;
+}
+/* About Page */
+#about{
+    background-color: rgb(4, 48, 78);
+    background-image: url(imagestext/background/aboutbg1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 350px;
+    object-fit: cover;
+    
+}
+.aboutsite{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: black;
+    width: 95%;
+    border:2px solid #d62828;
+    background-color: #304b6b91;
+    margin-top: 99px;
+    height: 100%;
+    padding: 32px 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.aboutsite h1{
+    font-size: 136px;
+    font-family: 'Libre Baskerville';
+    margin: 19px 0px;
+    opacity: 0.7;
+}
+.aboutsite p{
+    font-size: 24px;
+    font-family: 'Roboto Slab';
+    margin: 8px 12px;
+}
+.aboutsite h2{
+    font-family: 'Roboto Slab';
+    font-size: 29px;
+    margin: 0px 10px;
+    margin-top: 20px;
+}
+.social{
+    display: flex;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    margin: 15px 12px;
+}
+/* div#contact{
+    background-color: rgb(4, 48, 78);
+    background-image: url(/MyBlog/background/contactbg1.jpg);
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}    
+Project page */
+@media only screen and (max-width: 1434px) {
+    .writing{
+        font-size: 40px;
+        width: 54%;
+        height: 100%;
+    }
+    nav{
+        font-size: 13px;
+        top: 0;
+    }
+    
+}
+@media only screen and (max-width:400px) {
+
+    div.shape{
+        display: none;
+    }
+    .writing{
+        width: 90%;
+        display: flex;
+    margin: auto;
+    margin-top: 122px;
+    font-size: 39px;
+    height: 100%;
+    margin-bottom: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 52px 0px;
+    }
+    .writing p{
+        font-size: 30px;
+    }
+    .box{
+    color: white;
+    background-color: rgb(1 6 37);
+    height: 100%;
+    width: 91%;
+    margin-top: -63px;
+    margin-bottom: 85px;
+    }
+    .flipbox{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .projectname,.watchmore{
+        width: 40%;
+    }
+    .blogbox{
+        height: 100%;
+        width: 93%;
+        margin: 4px 0px;
+    }
+    .blogimage{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #about{
+        padding-bottom: 200px;
+    }
+    .aboutsite p,.aboutsite h1{
+        text-align: center;
+    }
+}

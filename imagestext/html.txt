@@ -1,0 +1,86 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code</title>
+    <link rel="stylesheet" href="MyBlog.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&family=Roboto+Slab:wght@600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navlogo">
+                <img src="/MyBlog/logo/LKIMG.png" alt="LK" onclick="logo()">
+
+            </div>
+            <ul>
+                <li class="navlist"><a href="index.html">HOME</a></li>
+                <li class="navlist"><a href="/MyBlog/project.html">PROJECT</a></li>
+                <li class="navlist"><a href="/MyBlog/about.html">ABOUT</a></li>
+                <li class="navlist"><a href=" contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <section>
+
+            <h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> aliquam excepturi vel debitis.
+            </h1>
+        </section>
+    </div>
+    <div class="flipbox">
+        <div class="box">
+            <h1>
+                HTML5
+
+            </h1>
+           <a href="/MyBlog/html.txt" target="_blank" >
+            <img src="/MyBlog/logo/html.png" alt="Html5 logo" id="htmllogo">
+        </a>
+        <P>
+            I Use Html5 to build this,you can check my code by clicking above image.
+        </P>
+    </div>
+    <div class="box">
+        <h1>
+            CSS
+            
+        </h1>
+             <a href="/MyBlog/css.txt" target="_blank" >
+                <img src="/MyBlog/logo/css2.png" alt="css logo" id="csslogo">
+            </a>
+            <P>
+                I Use CSS to style this,you can check my code by clicking above image.
+            </P>
+        </div>
+        <div class="box">
+            <h1>
+                JavaScript
+                
+            </h1>
+            <a href="/MyBlog/js.txt" target="_blank" >
+            <img src="/MyBlog/logo/js2.png" alt="JS logo" id="jslogo">
+            </a>
+            <P>
+                I Use JS to build this,you can check my code by clicking above image.
+            </P>
+
+        </div>
+
+
+    </div>
+    <footer>
+        <h4 class="footer">&copy; LK | All right reserved.</h4>
+    </footer>
+
+</body>
+
+</html>
