@@ -104,15 +104,15 @@ section{
     border-radius: 15px;
     box-shadow: black 10px 10px 17px;
     border: 2px solid #d62828;
-    /* transition: transform .7s; */
+    transition: transform .7s;
 }
-/* .box:hover{
+.box:hover{
     cursor: pointer;
     box-shadow: #020000eb 14px 14px 33px;
     transform: scale(1.2);
     background-color: rgb(6 9 50 / 85%);
     margin-bottom: auto; 
-         } */
+         }
 .writing{
     margin-top: 275px;
     font-size: 55px;
@@ -215,7 +215,7 @@ section{
 .blogspot{
     height: 509px;
     width: 95%;
-    background-color: red;
+    background-color: blue;
     display: flex;
     margin: auto;
     margin-top: 100px;
@@ -417,6 +417,6 @@ Project page */
         text-align:center;
     .aboutsite h1{
         text-align: center;
-        font-size: 114px;
+        font-size: 100px;
     }
 }
