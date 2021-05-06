@@ -324,12 +324,14 @@ section{
     border: 2px solid red;
     height: 245px;
     border-radius: 50%;
+     box-shadow: 0px 0px 21px black;
 }
 
 .aboutsite p{
     font-size: 24px;
     font-family: 'Roboto Slab';
     margin: 8px 12px;
+    color: floralwhite;
 }
 .aboutsite h2{
     font-family: 'Roboto Slab';
