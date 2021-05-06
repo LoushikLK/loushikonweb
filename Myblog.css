@@ -381,7 +381,7 @@ Project page */
         display: flex;
     margin: auto;
     margin-top: 122px;
-    font-size: 39px;
+    font-size: 30px;
     height: 100%;
     margin-bottom: 100px;
     flex-direction: column;
@@ -392,7 +392,7 @@ Project page */
     padding: 52px 0px;
     }
     .writing p{
-        font-size: 30px;
+        font-size: 20px;
     }
     .box{
     color: white;
