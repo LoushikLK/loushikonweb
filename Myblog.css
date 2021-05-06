@@ -104,12 +104,12 @@ section{
     border-radius: 15px;
     box-shadow: black 10px 10px 17px;
     border: 2px solid #d62828;
-    transition: transform .7s;
+/*     transition: transform .7s; */
 }
 .box:hover{
     cursor: pointer;
     box-shadow: #020000eb 14px 14px 33px;
-    transform: scale(1.2);
+/*     transform: scale(1.2); */
     background-color: rgb(6 9 50 / 85%);
     margin-bottom: auto; 
          }
