@@ -367,6 +367,11 @@ Project page */
     
 }
 @media only screen and (max-width:400px) {
+     nav{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
     div.shape{
         display: none;
@@ -419,9 +424,10 @@ Project page */
     }
     .aboutsite p{
         text-align:center;
+    }
     .aboutsite h1{
         text-align: center;
-        font-size: 60px;
+        font-size: 50px;
     }
         
     }       
