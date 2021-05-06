@@ -320,11 +320,12 @@ section{
     font-size: 108px;
     font-family: 'Libre Baskerville';
 }
-.myimg img{
+ .myimg img{
     border: 2px solid red;
     height: 245px;
     border-radius: 50%;
 }
+
 .aboutsite p{
     font-size: 24px;
     font-family: 'Roboto Slab';
