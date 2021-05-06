@@ -317,10 +317,13 @@ section{
     align-items: center;
 }
 .aboutsite h1{
-    font-size: 136px;
+    font-size: 108px;
     font-family: 'Libre Baskerville';
-    margin: 19px 0px;
-    opacity: 0.7;
+}
+.myimg img{
+    border: 2px solid red;
+    height: 245px;
+    border-radius: 50%;
 }
 .aboutsite p{
     font-size: 24px;
