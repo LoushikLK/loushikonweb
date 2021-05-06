@@ -123,7 +123,7 @@ section{
     color: #e2ecec;
     background-color: rgb(1 6 37);
     margin-bottom: 10px;
-    box-shadow: 34px -24px 0px red;
+   box-shadow: -37px -24px 0px #f9050554;
 }
 .writing p{
     font-size: 35px;
