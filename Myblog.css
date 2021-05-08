@@ -241,12 +241,17 @@ section{
     margin: 7px 0px;
 }
 .blogbox{
-    height: 234px;
+    height: 100%;
     width: 20%;
     border-radius: 11px;
     margin: 0px 20px;
     border: 2px solid #d62828;
     transition: transform .7s;
+    background-color: #0d0e0e;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: cursive;
 }
 .blogbox:hover{
     
@@ -275,7 +280,7 @@ section{
     color: white;
     font-family: 'Roboto Slab';
     margin-bottom: 20px;
-    cursor:not-allowed;
+    cursor:pointer;
 }
 .watchmore{
     border: 2px solid #3b666f;
@@ -414,7 +419,7 @@ Project page */
         flex-wrap: wrap;
     }
     .projectname,.watchmore{
-        width: 40%;
+        width: 44%;
     }
     .blogbox{
         height: 100%;
