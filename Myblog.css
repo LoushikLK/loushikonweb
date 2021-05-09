@@ -259,7 +259,6 @@ section{
     width: 20%;
     border-radius: 11px;
     margin: 0px 20px;
-    border: 2px solid #d62828;
     transition: transform .7s;
     background-color: #0d0e0e;
     color: white;
@@ -280,7 +279,7 @@ section{
     transition: transform .7s;
 }
 .projectname{
-    border: 2px solid #d62828;
+    border: 1px solid #d62828;
     background-color: #29091b;
     display: flex;
     flex-wrap: nowrap;
@@ -297,7 +296,7 @@ section{
     cursor:pointer;
 }
 .watchmore{
-    border: 2px solid #3b666f;
+    border: 1px solid #1a58a9;
     background-color: #efefe38f;
     display: flex;
     margin: auto;
