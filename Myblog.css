@@ -217,20 +217,34 @@ section{
     background-blend-mode: color-dodge;
 }
 .blogspot{
-    height: 509px;
+   height: 100%;
     width: 95%;
-    background-color: blue;
     display: flex;
+    flex-direction: column;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 50px;
-    background-image: url(imagestext/background/blogbgimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 2px solid #d62828;
     box-shadow: 0px 0px 21px black;
 
+}
+.blogspot h1{
+    font-size: 125px;
+    margin: auto;
+    color: whitesmoke;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+.blogspot p{
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+    color: white;
+    font-family: 'Roboto Slab';
+    text-align: center;
 }
 .blogimage{
     display: flex;
@@ -439,6 +453,12 @@ Project page */
     .aboutsite h1{
         text-align: center;
         font-size: 60px;
+    }.blogspot h1{
+        font-size: 34px;
+    }
+    .blogspot p{
+        font-size: 15px;
+        
     }
         
     }       
