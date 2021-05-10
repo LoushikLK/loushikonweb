@@ -81,9 +81,10 @@ section{
     padding: 0% 5%;
 }
 section h1{
+    color: #0a0a0a;
     font-size: 84px;
     font-family: emoji;
-    text-shadow: 9px 5px 14px #000000;
+    text-shadow: 0px 0px 2px #fbf9f9;
     padding-right: 6%;
     
 }
@@ -95,7 +96,7 @@ section p{
     font-size: 20px;
     text-align: left;
     padding: 5px;
-    color: #000;
+    color: white;
 }
 #indexbox{
     display: flex;
@@ -114,7 +115,7 @@ section p{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid #ccde12;
     cursor: pointer;
 }
 .box a{
@@ -122,7 +123,7 @@ section p{
 }
 .box:hover{
     background-color: #000000d4;
-    box-shadow: 4px 4px 10px black;
+    box-shadow: 0px 0px 7px #fbf7f7e0;
     border: 1px solid red;
 }
 
