@@ -214,7 +214,6 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-blend-mode: color-dodge;
 }
 .blogspot{
    height: 100%;
