@@ -54,22 +54,6 @@ nav ul li:hover{
     background-color:rgb(1 6 37);
 
 }
-.container{
-    background-image: url(imagestext/background/background7.jpg);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-section{
-    display: flex;
-    font-family: 'Libre Baskerville', serif;
-    color: rgb(184, 224, 255);
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-start;
-}
 .footer{
     display: flex;
     align-content: center;
@@ -79,130 +63,67 @@ section{
     padding: 30px 0px;
    
 }
-.flipbox ul{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-evenly;
+/*index page*/
+.container{
+    background-image: url(imagestext/background/indexbg.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.flipbox{
-    background-color: rgb(6 7 35);
+section{
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 15%;
+    padding: 0% 5%;
+}
+section h1{
+    font-size: 84px;
+    font-family: emoji;
+    text-shadow: 9px 5px 14px #000000;
+    padding-right: 6%;
+    
+}
+.para{
+    padding: 57px 0px;
+    text-align: left;
+}
+section p{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    color: #000;
+}
+#indexbox{
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
-    background-image: url(imagestext/background/background5.jpg);
-
+    justify-content: flex-end;
+    font-size: 25px;
+    padding: 46px 5%;
 }
 .box{
+    background-color: #ff0000cc;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    height: 52px;
+    width: 16%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.box a{
     color: white;
-    background-color: rgb(1 6 37);
-    height: 362px;
-    width: 22%;
-    margin-top: -63px;
-    margin-bottom: 85px;
-    border-radius: 15px;
-/*     box-shadow: black 10px 10px 17px; */
-    border: 2px solid #d62828;
-/*     transition: transform .7s; */
 }
 .box:hover{
-    cursor: pointer;
-    box-shadow: #020000eb 14px 14px 33px;
-/*     transform: scale(1.2); */
-    background-color: rgb(6 9 50 / 85%);
-    margin-bottom: auto; 
-         }
-.writing{
-    margin-top: 275px;
-    font-size: 55px;
-    height: 100%;
-    font-weight: 1;
-    width: 46%;
-    margin-left: 70px;
-    color: #ffffff;
-    background-color: rgb(1 6 37 / 94%);
-    margin-bottom: 10px;
-   box-shadow: -37px -24px 0px #f9050554;
-}
-.writing p{
-    font-size: 35px;
-}
-.shape{
-    margin-right: 60px;
-    margin-top: 0px;
-    padding-bottom: 95px;
-}
-.shape1{
-    display: flex;
-    height: 215px;
-    justify-content: flex-end;
-}
-.shape2{
-    display: flex;
-    height: 215px;
-    justify-content: flex-end;
-}
-.shape3{
-    display: flex;
-    height: 215px;
-    justify-content: flex-end;
-    position: relative;
-    animation: myfirst 5s linear 2s infinite alternate;
-}
-
-.boxshape{
-     height: 96%;
-    width: 13%;
-    background-color: #010625;
-    margin: 0px 17px;
-    padding: 2px 10px;
-    border-radius: 20px;
-    box-shadow: 15px 17px 20px black;
-    transition: transform .7s;
-    border: 2px solid #d62828;
-    
-    
-}
-
-.boxshape:hover{
-    transform: scale(1.2);
-
-}
-.box h1{
-    display: block;
-    text-align: center;
-    padding: 11px 0px;
-    border-radius: 11px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 100;
-    font-size: 52px;
-}
-.box p{
-    text-align: center;
-    font-size: 15px;
-    font-weight: 100;
-    font-family: 'Roboto Slab', serif;
-}
-.boximg{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-#htmllogo{
-    height: 188px;
-    width: 200px;
-    margin: 18px 109px;
-}
-#csslogo{
-    height: 146px;
-    width: 139px;
-    margin: 37px 141px;
-}
-#jslogo{
-    height: 146px;
-    width: 139px;
-    margin: 37px 141px;
+    background-color: #000000d4;
+    box-shadow: 4px 4px 10px black;
+    border: 1px solid red;
 }
 
 
@@ -396,35 +317,32 @@ Project page */
         flex-direction: column;
         justify-content: space-between;
     }
-
-    div.shape{
-        display: none;
+ section{
+        margin-top: 40%;
+        text-align: center;
+        padding:0;
     }
-    .writing{
-        width: 90%;
-        display: flex;
-    margin: auto;
-    margin-top: 122px;
-    font-size: 30px;
-    height: 100%;
-    margin-bottom: 100px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    padding: 52px 0px;
+    .para{
+        padding: 22px 0px;
     }
-    .writing p{
-        font-size: 20px;
+    section h1{
+        text-shadow: none;
+        font-size: 35px;
+        margin: auto;
+    }
+    section p{
+        padding: 0;
+    }
+    #indexbox{
+        padding: 0;
+        font-size: 13px;
+        justify-content: center;
     }
     .box{
-    color: white;
-    background-color: rgb(1 6 37);
-    height: 100%;
-    width: 91%;
-    margin-top: -63px;
-    margin-bottom: 85px;
+        height: 10px;
+        margin: 10px;
+        padding: 15px;
+        width: 28%;
     }
     .flipbox{
         display: flex;
@@ -458,6 +376,10 @@ Project page */
     .blogspot p{
         font-size: 15px;
         
+    }
+    .footer{
+        font-size: 10px;
+        padding: 10px 0px;
     }
         
     }       
