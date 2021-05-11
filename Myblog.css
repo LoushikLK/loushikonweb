@@ -317,6 +317,9 @@ Project page */
         flex-direction: column;
         justify-content: space-between;
     }
+    .container{
+        background-position-x: -196px;
+    }
  section{
         margin-top: 40%;
         text-align: center;
@@ -324,6 +327,7 @@ Project page */
     }
     .para{
         padding: 22px 0px;
+        padding-left: 89px;
     }
     section h1{
         font-size: 35px;
