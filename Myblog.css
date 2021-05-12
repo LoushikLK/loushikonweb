@@ -200,7 +200,7 @@ section p{
     object-fit: cover;
     transition: transform .7s;
 }
- iframe{
+ .iframe{
     height: 234px;
     width: 100%;
     border-radius: 11px;
