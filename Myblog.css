@@ -327,13 +327,14 @@ Project page */
     }
     .para{
         padding: 22px 0px;
-        padding-left: 89px;
+        padding-left: 97px;
     }
     section h1{
         font-size: 35px;
         margin: auto;
     }
     section p{
+        font-size: 16px;
         padding: 0;
     }
     #indexbox{
