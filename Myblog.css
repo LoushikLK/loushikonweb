@@ -186,6 +186,7 @@ section p{
     text-align: center;
     font-size: 19px;
     font-family: cursive;
+    border: 1px solid #d62828;
 }
 .blogbox:hover{
     
@@ -250,7 +251,7 @@ section p{
     margin: auto;
     color: black;
     width: 95%;
-    border:2px solid #d62828;
+    border:1px solid #d62828;
     background-color: #304b6b91;
     margin-top: 99px;
     height: 100%;
@@ -264,7 +265,7 @@ section p{
     font-family: 'Libre Baskerville';
 }
  .myimg img{
-    border: 2px solid red;
+    border: 1px solid red;
     height: 245px;
     border-radius: 50%;
      box-shadow: 0px 0px 21px black;
