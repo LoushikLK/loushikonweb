@@ -377,6 +377,7 @@ Project page */
     .blogbox:hover{
         transform: none;
         box-shadow:none;
+    }
     .blogimage{
         flex-direction: column;
         flex-wrap: wrap;
@@ -390,7 +391,8 @@ Project page */
     .aboutsite h1{
         text-align: center;
         font-size: 60px;
-    }.blogspot h1{
+    }
+        .blogspot h1{
         font-size: 34px;
     }
     .blogspot p{
