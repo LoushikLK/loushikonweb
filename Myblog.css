@@ -376,8 +376,6 @@ Project page */
         height: 100%;
         width: 93%;
         margin: 4px 0px;
-    }
-    .blogbox:hover{
         transform: none;
         box-shadow:none;
     }
