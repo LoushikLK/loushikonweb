@@ -200,7 +200,7 @@ section p{
     object-fit: cover;
     transition: transform .7s;
 }
-.blogbox iframe{
+ iframe{
     height: 234px;
     width: 100%;
     border-radius: 11px;
@@ -377,10 +377,10 @@ Project page */
         width: 93%;
         margin: 4px 0px;
     }
-/*     .blogbox:hover{
+    .blogbox:hover{
         transform: none;
         box-shadow:none;
-    } */
+    }
     .blogimage{
         flex-direction: column;
         flex-wrap: wrap;
