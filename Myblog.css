@@ -130,7 +130,7 @@ section p{
 /* Contact Page */
 #blog{
     background-color: rgb(4, 48, 78);
-    background-image: url(imagestext/background/bg1.jpg);
+    background-image: url(imagestext/background/thor2.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,6 +139,7 @@ section p{
 .blogspot{
    height: 100%;
     width: 95%;
+    background-image: url(imagestext/background/bg1.jpg);
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -194,6 +195,13 @@ section p{
     box-shadow: 2px 2px 20px black;
 }
 .blogbox img{
+    height: 234px;
+    width: 100%;
+    border-radius: 11px;
+    object-fit: cover;
+    transition: transform .7s;
+}
+.blogbox iframe{
     height: 234px;
     width: 100%;
     border-radius: 11px;
