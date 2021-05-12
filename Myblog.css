@@ -374,6 +374,9 @@ Project page */
         width: 93%;
         margin: 4px 0px;
     }
+    .blogbox:hover{
+        transform: none;
+        box-shadow:none;
     .blogimage{
         flex-direction: column;
         flex-wrap: wrap;
