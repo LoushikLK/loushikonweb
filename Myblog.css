@@ -115,7 +115,6 @@ section p{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
     cursor: pointer;
 }
 .box a{
