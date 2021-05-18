@@ -335,6 +335,7 @@ Project page */
     }
     .container{
         background-position-x: -196px;
+        height: 100vh;
     }
  section{
         margin-top: 40%;
