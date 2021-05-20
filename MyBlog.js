@@ -22,6 +22,24 @@ function boxco(){
 
 }
 }
+function logo() {
+    let body = document.body;
+    let container = document.querySelector(".container")
+    container.style.display = "none"
+    let footer = document.querySelector("footer")
+    footer.style.display = "none"
+    body.style.backgroundColor = "black";
+    body.style.color = "green"
+    body.style.padding = "50px";
+    body.style.fontSize = "20px";
+    let myHtml=`<video width="100%" height="100%" autoplay>
+    <source src="imagestext/lkvideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>`
+  body.innerHTML=myHtml;
+    
+}
+
 
 
 
