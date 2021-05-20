@@ -81,7 +81,7 @@ section{
     padding: 0% 5%;
 }
 section h1{
-    color: #0a0a0a;
+    color: white;
     font-size: 84px;
     font-family: emoji;
     padding-right: 6%;
@@ -180,7 +180,7 @@ section p{
     border-radius: 11px;
     margin: 0px 20px;
     transition: transform .7s;
-    background-color: #0d0e0e;
+    background-color: #41444475;
     color: white;
     text-align: center;
     font-size: 19px;
