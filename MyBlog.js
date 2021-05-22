@@ -32,7 +32,7 @@ function logo() {
     body.style.color = "green"
     body.style.padding = "50px";
     body.style.fontSize = "20px";
-    let myHtml=`<video width="100%" height="100%" autoplay>
+    let myHtml=`<video width="100%" height="100%" muted autoplay>
     <source src="imagestext/lkvideo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>`
