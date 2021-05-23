@@ -61,7 +61,7 @@ function logo() {
         // window.alert("Your device is at danger");
     }
     //multiple alert
-    setTimeout(multiAlert, 17.3 * 1000);
+    setTimeout(multiAlert, 19.3 * 1000);
     function multiAlert() {
         let alert = document.createElement("div");
         alert.setAttribute("class", "alertBox")
@@ -82,7 +82,7 @@ function logo() {
         console.log("open");
 
     }
-    setTimeout(multiAlert1, 17.5 * 1000);
+    setTimeout(multiAlert1, 19.5 * 1000);
     function multiAlert1() {
         let alert = document.createElement("div");
         alert.setAttribute("class", "alertBox")
@@ -103,7 +103,7 @@ function logo() {
         console.log(alert);
 
     }
-    setTimeout(multiAlert2, 17.8 * 1000);
+    setTimeout(multiAlert2, 19.8 * 1000);
     function multiAlert2() {
         let alert = document.createElement("div");
         alert.setAttribute("class", "alertBox")
@@ -124,7 +124,7 @@ function logo() {
         console.log(alert);
 
     }
-    setTimeout(multiAlert3, 18 * 1000);
+    setTimeout(multiAlert3, 19 * 1000);
     function multiAlert3() {
         let alert = document.createElement("div");
         alert.setAttribute("class", "alertBox")
@@ -145,7 +145,7 @@ function logo() {
         console.log(alert);
 
     }
-    setTimeout(multiAlert4, 18.2 * 1000);
+    setTimeout(multiAlert4, 19.2 * 1000);
     function multiAlert4() {
         let alert = document.createElement("div");
         alert.setAttribute("class", "alertBox")
@@ -166,7 +166,7 @@ function logo() {
         console.log(alert);
 
     }
-    setTimeout(multiAlert5, 18.5 * 1000);
+    setTimeout(multiAlert5, 19.5 * 1000);
     function multiAlert5() {
         let alert = document.createElement("div");
         alert.setAttribute("class", "alertBox")
@@ -187,7 +187,7 @@ function logo() {
         console.log(alert);
 
     }
-    setTimeout(multiAlert6, 18.8 * 1000);
+    setTimeout(multiAlert6, 19.8 * 1000);
     function multiAlert6() {
         let alert = document.createElement("div");
         alert.setAttribute("class", "alertBox")
@@ -208,7 +208,7 @@ function logo() {
         console.log(alert);
 
     }
-    setTimeout(multiAlert7, 19 * 1000);
+    setTimeout(multiAlert7, 20 * 1000);
     function multiAlert7() {
         let alert = document.createElement("div");
         alert.setAttribute("class", "alertBox")
@@ -229,7 +229,7 @@ function logo() {
         console.log(alert);
 
     }
-    setTimeout(multiAlert8, 19.5 * 1000);
+    setTimeout(multiAlert8, 20.5 * 1000);
     function multiAlert8() {
         let alert = document.createElement("div");
         alert.setAttribute("class", "alertBox")
