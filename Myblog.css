@@ -401,6 +401,81 @@ Project page */
         font-size: 10px;
         padding: 10px 0px;
     }
+    
+    
+    /* media quarey end*/
 }
+
+/* js items css */
+#bodyStyle{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#alertBox{
+    height: auto;
+    padding: 20px;
+    color: #ff1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    font-family: auto;
+}
+.alertBox{
+    height: auto;
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    font-family: auto;
+}
+#alertBox button{
+    height: 35px;
+    width: 40%;
+    background-color: #ff0000;
+    color: black;
+    border: 1px solid #fdfdfd;
+    font-family: 'Libre Baskerville';
+    margin: 17px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.alertBox button{
+    height: 35px;
+    width: 40%;
+    background-color: #ff0000;
+    color: black;
+    border: 1px solid #fdfdfd;
+    font-family: 'Libre Baskerville';
+    margin: 17px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.google{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 60px;
+}
+.google1{
+    color: #1a84e0;
+}
+.google2{
+    color: #ff3737;
+}
+.google3{
+    color: #ffff52;
+}
+.google4{
+    color: #11ce11;
+}
+
         
        
