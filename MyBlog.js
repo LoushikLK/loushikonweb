@@ -22,11 +22,12 @@ function boxco(){
 
 }
 }
+
 function logo() {
     let body = document.body;
     let displayElement = body.children[0];
     displayElement.style.display = "none"
-    console.log(displayElement);
+    // console.log(displayElement);
 
     let footer = body.querySelector(".footer")
     footer.style.display = "none"
@@ -36,11 +37,9 @@ function logo() {
     LK
   </video>`
     body.innerHTML = myHtml;
-    console.log(body);
+    // console.log(body);
 
-    setTimeout(alert, 18.1 * 1000);
-
-    function alert() {
+    function kalert(left, top) {
         body.innerHTML = ""
         let alert = document.createElement("div");
         alert.id = "alertBox"
@@ -50,210 +49,66 @@ function logo() {
         let text = document.createElement("div")
         text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
         alert.appendChild(text)
-        console.log(text.innerHTML);
+        // console.log(text.innerHTML);
 
         body.appendChild(alert);
         let button = document.createElement("button")
         button.innerText = "OK"
         button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
         alert.appendChild(button)
-        console.log(alert);
+        // console.log(alert);
+
         // window.alert("Your device is at danger");
+        alert.style.position = "absolute"
+        alert.style.left ="auto"
+        alert.style.top ="auto"
     }
-    //multiple alert
-    setTimeout(multiAlert, 22.3 * 1000);
-    function multiAlert() {
+    setTimeout(kalert,17000);
+
+    function alert() {
+        // body.innerHTML = ""
         let alert = document.createElement("div");
-        alert.setAttribute("class", "alertBox")
+        alert.id = "alertBox"
+        alert.style.position = 'fixed'
         alert.style.border = '1px solid red'
+        alert.innerText = ""
         let text = document.createElement("div")
         text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
         alert.appendChild(text)
-        console.log(text.innerHTML);
+        // console.log(text.innerHTML);
 
         body.appendChild(alert);
         let button = document.createElement("button")
         button.innerText = "OK"
         button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
         alert.appendChild(button)
+        // console.log(alert);
+
+
+        // window.alert("Your device is at danger");
+        let left = Math.floor((Math.random() * 60) + 10)
+        let top = Math.floor((Math.random() * 60) + 10)
+        console.log(left, top);
         alert.style.position = "absolute"
-        alert.style.left ="45%"
-        alert.style.top = "24%"
-        console.log("open");
-
+        alert.style.left = left + "%";
+        alert.style.top = top + "%"
     }
-    setTimeout(multiAlert1, 22.5 * 1000);
-    function multiAlert1() {
-        let alert = document.createElement("div");
-        alert.setAttribute("class", "alertBox")
-        alert.style.border = '1px solid red'
-        let text = document.createElement("div")
-        text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
-        alert.appendChild(text)
-        console.log(text.innerHTML);
-
-        body.appendChild(alert);
-        let button = document.createElement("button")
-        button.innerText = "OK"
-        button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
-        alert.appendChild(button)
-        alert.style.position = "absolute"
-        alert.style.left ="25%"
-        alert.style.top = "55%"
-        console.log(alert);
-
-    }
-    setTimeout(multiAlert2, 22.8 * 1000);
-    function multiAlert2() {
-        let alert = document.createElement("div");
-        alert.setAttribute("class", "alertBox")
-        alert.style.border = '1px solid red'
-        let text = document.createElement("div")
-        text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
-        alert.appendChild(text)
-        console.log(text.innerHTML);
-
-        body.appendChild(alert);
-        let button = document.createElement("button")
-        button.innerText = "OK"
-        button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
-        alert.appendChild(button)
-        alert.style.position = "absolute"
-        alert.style.left ="10%"
-        alert.style.top = "60%"
-        console.log(alert);
-
-    }
-    setTimeout(multiAlert3, 23 * 1000);
-    function multiAlert3() {
-        let alert = document.createElement("div");
-        alert.setAttribute("class", "alertBox")
-        alert.style.border = '1px solid red'
-        let text = document.createElement("div")
-        text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
-        alert.appendChild(text)
-        console.log(text.innerHTML);
-
-        body.appendChild(alert);
-        let button = document.createElement("button")
-        button.innerText = "OK"
-        button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
-        alert.appendChild(button)
-        alert.style.position = "absolute"
-        alert.style.left ="30%"
-        alert.style.top = "40%"
-        console.log(alert);
-
-    }
-    setTimeout(multiAlert4, 23.2 * 1000);
-    function multiAlert4() {
-        let alert = document.createElement("div");
-        alert.setAttribute("class", "alertBox")
-        alert.style.border = '1px solid red'
-        let text = document.createElement("div")
-        text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
-        alert.appendChild(text)
-        console.log(text.innerHTML);
-
-        body.appendChild(alert);
-        let button = document.createElement("button")
-        button.innerText = "OK"
-        button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
-        alert.appendChild(button)
-        alert.style.position = "absolute"
-        alert.style.left ="33%"
-        alert.style.top = "66%"
-        console.log(alert);
-
-    }
-    setTimeout(multiAlert5, 23.5 * 1000);
-    function multiAlert5() {
-        let alert = document.createElement("div");
-        alert.setAttribute("class", "alertBox")
-        alert.style.border = '1px solid red'
-        let text = document.createElement("div")
-        text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
-        alert.appendChild(text)
-        console.log(text.innerHTML);
-
-        body.appendChild(alert);
-        let button = document.createElement("button")
-        button.innerText = "OK"
-        button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
-        alert.appendChild(button)
-        alert.style.position = "absolute"
-        alert.style.left ="60%"
-        alert.style.top = "60%"
-        console.log(alert);
-
-    }
-    setTimeout(multiAlert6, 23.8 * 1000);
-    function multiAlert6() {
-        let alert = document.createElement("div");
-        alert.setAttribute("class", "alertBox")
-        alert.style.border = '1px solid red'
-        let text = document.createElement("div")
-        text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
-        alert.appendChild(text)
-        console.log(text.innerHTML);
-
-        body.appendChild(alert);
-        let button = document.createElement("button")
-        button.innerText = "OK"
-        button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
-        alert.appendChild(button)
-        alert.style.position = "absolute"
-        alert.style.left ="10%"
-        alert.style.top = "30%"
-        console.log(alert);
-
-    }
-    setTimeout(multiAlert7, 24 * 1000);
-    function multiAlert7() {
-        let alert = document.createElement("div");
-        alert.setAttribute("class", "alertBox")
-        alert.style.border = '1px solid red'
-        let text = document.createElement("div")
-        text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
-        alert.appendChild(text)
-        console.log(text.innerHTML);
-
-        body.appendChild(alert);
-        let button = document.createElement("button")
-        button.innerText = "OK"
-        button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
-        alert.appendChild(button)
-        alert.style.position = "absolute"
-        alert.style.left ="70%"
-        alert.style.top = "10%"
-        console.log(alert);
-
-    }
-    setTimeout(multiAlert8, 24.5 * 1000);
-    function multiAlert8() {
-        let alert = document.createElement("div");
-        alert.setAttribute("class", "alertBox")
-        alert.style.border = '1px solid red'
-        let text = document.createElement("div")
-        text.innerHTML = `<div class = google><span class = "google1">G</span><span class = "google2">o</span><span class = "google3">o</span><span class = "google1">g</span><span class = "google4">l</span><span class = "google2">e</span></div><hr><br> <span class="redcl">Security Alert !!!</span><br>Google has detected an attack attempt on your device.<br>Somebody's trying infect your device with harmful viruses.<br>Click below to secure your device.<br>Immediate Action is Required`
-        alert.appendChild(text)
-        console.log(text.innerHTML);
-
-        body.appendChild(alert);
-        let button = document.createElement("button")
-        button.innerText = "OK"
-        button.setAttribute("onclick", `location.href = "https://loushiklk.github.io/loushikonweb/"`)
-        alert.appendChild(button)
-        alert.style.position = "absolute"
-        alert.style.left ="10%"
-        alert.style.top = "15%"
-        console.log(alert);
-
-    }
+    setTimeout(alert,22000);
+    setTimeout(alert,23000);
+    setTimeout(alert,23500);
+    setTimeout(alert,23700);
+    setTimeout(alert,24000);
+    setTimeout(alert,24500);
+    setTimeout(alert,24800);
+    setTimeout(alert,25100);
+    setTimeout(alert,25500);
+    setTimeout(alert,25800);
+    setTimeout(alert,26100);
+    setTimeout(alert,26600);
+    setTimeout(alert,26700);
+    setTimeout(alert,26800);
+    setTimeout(alert,27000);
 
 
 }
-
-
-
 
