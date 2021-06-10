@@ -22,7 +22,7 @@ function boxco(){
 
 }
 }
-
+//LK LOGO
 function logo() {
     let body = document.body;
     let displayElement = body.children[0];
