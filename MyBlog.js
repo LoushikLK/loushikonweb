@@ -88,7 +88,7 @@ function logo() {
         // window.alert("Your device is at danger");
         let left = Math.floor((Math.random() * 60) + 10)
         let top = Math.floor((Math.random() * 60) + 10)
-        console.log(left, top);
+        //console.log(left, top);
         alert.style.position = "absolute"
         alert.style.left = left + "%";
         alert.style.top = top + "%"
